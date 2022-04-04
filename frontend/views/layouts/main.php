@@ -4,13 +4,14 @@
 /** @var string $content */
 
 use common\widgets\Alert;
-use frontend\assets\AppAsset;
+use frontend\assets\TemplateAsset;
+use frontend\assets\Asset;
 use yii\bootstrap4\Breadcrumbs;
 use yii\bootstrap4\Html;
 use yii\bootstrap4\Nav;
 use yii\bootstrap4\NavBar;
 
-AppAsset::register($this);
+TemplateAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
