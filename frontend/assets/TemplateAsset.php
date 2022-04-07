@@ -12,7 +12,6 @@ class TemplateAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-<<<<<<< HEAD
         'css/site.css',
         'css/bootstrap.min.css',
         'css/style.css',
@@ -30,7 +29,6 @@ class TemplateAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapAsset',
     ];
-=======
         '/css/bootstrap.min.css',
         '/css/style.css',
         '/css/versions.css',
