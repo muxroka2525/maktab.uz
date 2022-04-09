@@ -8,6 +8,16 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
+<<<<<<< HEAD
+@import url(css/animate.css);
+@import url(css/animate.min.css);
+@import url(css/bootstrap-touch-slider.css);
+@import url(css/flaticon.css);
+@import url(css/timeline.min.css);
+@import url(css/prettyPhoto.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+=======
 @import url(/css/animate.css);
 @import url(/css/animate.min.css);
 @import url(/css/bootstrap-touch-slider.css);
@@ -16,6 +26,7 @@
 @import url(/css/prettyPhoto.css);
 @import url(/css/owl.carousel.css);
 @import url(/css/font-awesome.min.css);
+>>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 
 /*------------------------------------------------------------------
     SKELETON
@@ -29,7 +40,11 @@ body {
 }
 
 body.demos .section {
+<<<<<<< HEAD
+    background: url(images/bg.png) repeat top center #f2f3f5;
+=======
     background: url(/images/bg.png) repeat top center #f2f3f5;
+>>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 }
 
 body.demos .section-title img {
@@ -2483,7 +2498,11 @@ select.mobile-device {
 .footer {
     padding: 90px 0 80px !important;
     color: #cccccc;
+<<<<<<< HEAD
+	background:#4c5a7d url('images/world-map.png') no-repeat center; 
+=======
 	background:#4c5a7d url('/images/world-map.png') no-repeat center; 
+>>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 }
 
 .footer .widget-title {
@@ -3282,6 +3301,21 @@ span.m_1 {
 
 
 .img-bg-01{
+<<<<<<< HEAD
+	background: url(images/img-01.jpg) no-repeat center;
+	background-size: cover;
+}
+.img-bg-02{
+	background: url(images/img-02.jpg) no-repeat center;
+	background-size: cover;
+}
+.img-bg-03{
+	background: url(images/img-03.jpg) no-repeat center;
+	background-size: cover;
+}
+.img-bg-04{
+	background: url(images/img-04.jpg) no-repeat center;
+=======
 	background: url(/images/img-01.jpg) no-repeat center;
 	background-size: cover;
 }
@@ -3295,6 +3329,7 @@ span.m_1 {
 }
 .img-bg-04{
 	background: url(/images/img-04.jpg) no-repeat center;
+>>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 	background-size: cover;
 }
 
