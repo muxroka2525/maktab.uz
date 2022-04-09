@@ -126,8 +126,8 @@ TemplateAsset::register($this);
                 </button>
                 <div class="collapse navbar-collapse" id="navbars-host">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/site/index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/site/about.php">About Us</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Course </a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -139,13 +139,13 @@ TemplateAsset::register($this);
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                                <a class="dropdown-item" href="blog.html">Blog </a>
+                                <a class="dropdown-item" href="/site/blog.php">Blog </a>
                                 <a class="dropdown-item" href="blog-single.html">Blog single </a>
                             </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/site/teachers.php">Teachers</a></li>
                         <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/site/contact.php">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
