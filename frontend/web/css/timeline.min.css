@@ -312,11 +312,7 @@
 }
 
 .timeline-nav-button--prev:before {
-<<<<<<< HEAD
-	background-image: url(../images/arrow-left.svg)
-=======
 	background-image: url(/images/arrow-left.svg)
->>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 }
 
 .timeline-nav-button--next {
@@ -324,11 +320,7 @@
 }
 
 .timeline-nav-button--next:before {
-<<<<<<< HEAD
-	background-image: url(../images/arrow-right.svg)
-=======
 	background-image: url(/images/arrow-right.svg)
->>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 }
 
 .timeline--mobile {

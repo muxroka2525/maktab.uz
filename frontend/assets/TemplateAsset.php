@@ -12,23 +12,6 @@ class TemplateAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
-        'css/bootstrap.min.css',
-        'css/style.css',
-        'css/versions.css',
-        'css/responsive.css',
-        'css/custom.css'
-    ];
-    public $js = [
-        'js/modernizer.js',
-        'js/all.js',
-        'js/custom.js',
-        'js/timeline.min.js'
-    ];
-    public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap4\BootstrapAsset',
-    ];
         '/css/bootstrap.min.css',
         '/css/style.css',
         '/css/versions.css',
@@ -47,5 +30,4 @@ class TemplateAsset extends AssetBundle
     ];
 
 
->>>>>>> 7d20b750026dc792b5e1152dfacff9409b0a05a1
 }
