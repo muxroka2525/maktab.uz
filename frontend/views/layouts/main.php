@@ -112,6 +112,7 @@ TemplateAsset::register($this);
     </div>
     <!-- END LOADER --> 
 
+<<<<<<< HEAD
         <!-- Start header -->
     <header class="top-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -154,6 +155,10 @@ TemplateAsset::register($this);
             </div>
         </nav>
     </header>
+=======
+    <!-- Start header -->
+    <?= $this->render('header.php') ?>
+>>>>>>> 0789ba122431d4d455104031d3a35f128e846d09
     <!-- End header -->
 
     <div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
@@ -171,8 +176,8 @@ TemplateAsset::register($this);
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-right">
                                     <div class="big-tagline">
-                                        <h2><strong>SmartEDU </strong> education College</h2>
-                                        <p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+                                        <h2><strong>298- </strong>maktab</h2>
+                                        <p class="lead">So'ngi najot ta'limda!!!</p>
                                             <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="#" class="hover-btn-new"><span>Read More</span></a>
@@ -190,8 +195,8 @@ TemplateAsset::register($this);
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-left">
                                     <div class="big-tagline">
-                                        <h2 data-animation="animated zoomInRight">SmartEDU <strong>education school</strong></h2>
-                                        <p class="lead" data-animation="animated fadeInLeft">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+                                        <h2 data-animation="animated zoomInRight">Ta'lim maskani <strong>298-maktab</strong></h2>
+                                        <p class="lead" data-animation="animated fadeInLeft">Biz sifatli ta'lim tarafdorimiz!!!</p>
                                             <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="#" class="hover-btn-new"><span>Read More</span></a>
@@ -209,10 +214,8 @@ TemplateAsset::register($this);
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 text-center">
                                     <div class="big-tagline">
-                                        <h2 data-animation="animated zoomInRight"><strong>VPS Servers</strong> Company</h2>
-                                        <p class="lead" data-animation="animated fadeInLeft">1 IP included with each server 
-                                            Your Choice of any OS (CentOS, Windows, Debian, Fedora)
-                                            FREE Reboots</p>
+                                        <h2 data-animation="animated zoomInRight"><strong>298-</strong> maktab</h2>
+                                        <p class="lead" data-animation="animated fadeInLeft">Zamona ilmi bilan shug'ullanmagan millat boshqa millatlarga xizmat qiladi!!!</p>
                                             <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="#" class="hover-btn-new"><span>Read More</span></a>
@@ -654,60 +657,9 @@ TemplateAsset::register($this);
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>About US</h3>
-                        </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>   
-                        <div class="footer-right">
-                            <ul class="footer-links-soi">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul><!-- end links -->
-                        </div>                      
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Information Link</h3>
-                        </div>
-                        <ul class="footer-links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-                
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Contact Details</h3>
-                        </div>
-
-                        <ul class="footer-links">
-                            <li><a href="mailto:#">info@yoursite.com</a></li>
-                            <li><a href="#">www.yoursite.com</a></li>
-                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
-                            <li>+61 3 8376 6284</li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-                
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </footer><!-- end footer -->
+    <!-- start footer -->
+    <?= $this->render('footer.php')?>
+    <!-- end footer -->
 
     <div class="copyrights">
         <div class="container">
